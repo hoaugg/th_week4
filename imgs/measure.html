@@ -60,7 +60,12 @@
         }
         
         #center_1 {
-            display: inline-flex align-self: start;
+            display: flex;
+        }
+        
+        #center_status {
+            display: flex;
+            justify-content: space-around;
         }
         
         #user_icon {
@@ -88,12 +93,16 @@
             </div>
             <div id="center">
                 <div id="center_1">
-                    <div>
-                        <h4>ZOOM</h4>
+                    <div id="center_status">
+                        <div>
+                            <h4>ZOOM</h4>
+
+                        </div>
                         <img class="item" src="user.png" alt="">
                         <h6>internal</h6>
-                        <img src="img_big.png" alt="">
+
                     </div>
+                    <img src="img_big.png" alt="">
                 </div>
             </div>
             <div id="right">right</div>
