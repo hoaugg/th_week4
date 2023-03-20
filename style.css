@@ -93,3 +93,33 @@
     right: 30px;
     top: 30px;
 }
+
+#mnpicture-center{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.picture-center1{
+    position: relative;
+}
+
+.mic_on__zoom{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.name_on_zoom{
+    display: flex;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(117 118 120 / 53%);
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
