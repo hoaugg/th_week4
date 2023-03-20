@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            display: flex;
+            width: 910px;
+        }
+        
+        #right {
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 90px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 32px;
+            margin-top: 50px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+        
+        #centerPanel1 {
+            display: flex;
+            justify-content: space-between;
+            width: 915px;
+            margin-top: 45px;
+        }
+        
+        #avata1 {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="logo.png" alt="">
+                    <img class="item" src="home.png" alt="">
+                    <img class="item" src="cam.png" alt="">
+                    <img class="item" src="chatting.png" alt="">
+                    <img class="item" src="user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="avatar.png" width="44" alt="">
+                    <img id="setting" src="setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div id="centerPanel1">
+                    <div>Zoom</div>
+                    <div>12:00</div>
+                </div>
+                <div><img id="avata1" src="img_big.png" alt=""></div>
+            </div>
+            <div id="right">right</div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
