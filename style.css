@@ -123,3 +123,22 @@
     top: 10px;
     color: white;
 }
+#menu-footer{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+#end_meeting{
+    display: flex;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(117 118 120 / 53%);
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    position: absolute;
+    align-self: center;
+    color: white;   
+}
